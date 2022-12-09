@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+  font-family:'Balsamiq Sans';
+}
+
+@import url('https://fonts.googleapis.com/css?family=Balsamiq Sans');
+
+body {
+  font-family:'Balsamiq Sans', sans-serif !important;
 }
 
 .App-logo {
