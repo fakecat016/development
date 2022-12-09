@@ -125,7 +125,6 @@ function App() {
   }
 
   // Filt and sort
-  // const toDisplay = bakeryData.filter(checkPrice).filter(checkIngredient).sort(sortPrice);
   const toDisplay = (data) => {
     if (priceSort === "n") {
       return data.filter(checkPrice).filter(checkIngredient);
